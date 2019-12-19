@@ -24,4 +24,5 @@ class Customer
   def new_meal(waiter, total, tip)
     Meal.new(waiter, self, total, tip)
   end
+  binding.pry
 end
